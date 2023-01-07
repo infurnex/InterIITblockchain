@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Deposit.css">
+</head>
+<body>
+    <div class="main">
+        <div class="deposit">
+            <h1>
+                Make Payment with Bank Currency
+            </h1>
+            <div class="details">
+                <p>
+                    User Details
+                </p>
+                <div>
+                    <div class="detail-name">
+                        User's Private key
+                    </div>
+                    <input type="text" id="sfa">
+                </div>
+                <div>
+                    <div class="detail-name">
+                        Send to(Wallet address)
+                    </div>
+                    <input type="text" id="sta">
+                </div>
+                <div>
+                    <div class="detail-name">
+                        No of tokens
+                    </div>
+                    <input type="text" id="ttn">
+                </div>
+                <button id="tt">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+    <script  src="Payment.js"></script>
+</body>
+</html>
